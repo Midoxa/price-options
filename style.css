@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #eee;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  margin: 8rem auto;
+  gap: 40px;
+}
+.card {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 100px 0 100px;
+  height: fit-content;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #eee;
+  background-color: #ffffff;
+  position: relative;
+}
+.card h1 {
+  font-size: 34px;
+  font-family: "Acme", sans-serif;
+  color: #ffffff;
+  transition: 0.5s;
+  position: absolute;
+}
+.card ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+.card-1 h1 {
+  background-color: #fee31a;
+  padding: 18px;
+  border-radius: 0 100px 0 100px;
+  width: 200px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  font-size: 40px;
+}
+.card h2 {
+  font-size: 65px;
+  margin: 10px;
+  margin-top: 14rem;
+  font-family: "Acme", sans-serif;
+  color: #343a40;
+}
+.card h2 span {
+  font-size: 26px;
+  margin-left: 12px;
+}
+.card h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 10px;
+  line-height: 1.5;
+  color: #343a40;
+}
+.card a {
+  text-decoration: none;
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000000;
+  padding: 14px 32px;
+  margin: 1.5rem 0;
+  display: inline-block;
+  border-radius: 0 15px 0 15px;
+}
+.card-2 h1 {
+  background-color: #03cdff;
+  padding: 18px;
+  border-radius: 0 100px 0 100px;
+  width: 200px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  font-size: 40px;
+}
+.card-3 h1 {
+  background-color: #ff71cf;
+  padding: 18px;
+  border-radius: 0 100px 0 100px;
+  width: 200px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  font-size: 40px;
+}
+.card ul {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  margin-left: 4rem;
+  display: inline-block;
+}
+
+/* Icons */
+.card-1 .fa-solid {
+  color: #fee31a;
+  margin: 0 10px;
+}
+.card-2 .fa-solid {
+  margin: 0 10px;
+  color: #03cdff;
+}
+.card-3 .fa-solid {
+  margin: 0 10px;
+  color: #ff71cf;
+}
+
+.card:hover h1 {
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+  position: absolute;
+  border-radius: 50%;
+}
+/* button hover */
+
+.card a:hover {
+  background-color: #000;
+  color: #fff;
+
+  transition: 0.5s;
+}
+
+
